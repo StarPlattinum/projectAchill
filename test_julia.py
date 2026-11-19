@@ -1,7 +1,7 @@
 import random, time
 from julia import load_model
 
-engine = load_model("Julia-1", device="cpu", strict_encoding=True,
+engine = load_model(r"C:\Users\PC\Julia-1", device="cpu", strict_encoding=True,
                     max_length=512, head_length=256)
 
 def truth(x, size, obs):
